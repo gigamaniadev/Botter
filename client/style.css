@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -38,7 +37,6 @@ body {
   font-size: 25px;
   color: rgb(38, 255, 107);
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
   font-weight: 700;
 }
 
@@ -103,7 +101,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 .profile {
@@ -124,7 +122,7 @@ body {
 .message {
   flex: 1;
   color: #dcdcdc;
-  font-size: 20px;
+  font-size: 16px;
   max-width: 100%;
   overflow-x: scroll;
   white-space: pre-wrap; 
@@ -153,15 +151,14 @@ form {
 
 textarea {
   width: 100%;
-
   color: #fff;
-  font-size: 18px;
-
+  font-size: 16px;
   padding: 10px;
   background: transparent;
   border-radius: 5px;
   border: none;
   outline: none;
+  resize: none;
 }
 
 button {
@@ -172,8 +169,16 @@ button {
 }
 
 form img {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
+}
+
+.send-btn {
+  filter: invert(98%) 
+  sepia(1%) saturate(498%) 
+  hue-rotate(188deg) 
+  brightness(109%) 
+  contrast(100%);
 }
 
 /* AI Loader Efect */
