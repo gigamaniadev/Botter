@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
 
 body {
   background: #343541;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .top-banner {
@@ -21,16 +21,14 @@ body {
   justify-content: center;
   background-color: #2c7be5;
   text-transform: uppercase;
-
 }
 
 .header {
   background: #232526;
-  background: -webkit-linear-gradient(to right, #414345, #232526); 
+  background: -webkit-linear-gradient(to right, #414345, #232526);
   background: linear-gradient(to right, #414345, #232526);
   height: 65px;
   display: flex;
- 
 }
 
 .header-container {
@@ -59,20 +57,17 @@ body {
   }
 }
 
-
-
 #app {
   width: 100vw;
   height: calc(100vh - 95px);
-  background: #000000;  
-  background: -webkit-linear-gradient(to right, #434343, #000000);  
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
   background: linear-gradient(to right, #434343, #000000);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
-
 
 #chat_container {
   flex: 1;
@@ -103,7 +98,7 @@ body {
 }
 
 .ai {
-  background: #40414F;
+  background: #40414f;
 }
 
 .chat {
@@ -138,7 +133,7 @@ body {
   font-size: 16px;
   max-width: 100%;
   overflow-x: scroll;
-  white-space: pre-wrap; 
+  white-space: pre-wrap;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -153,7 +148,7 @@ form {
   margin: 0 auto;
   padding: 10px;
   background: #232526;
-  background: -webkit-linear-gradient(to right, #414345, #232526); 
+  background: -webkit-linear-gradient(to right, #414345, #232526);
   background: linear-gradient(to right, #414345, #232526);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -182,16 +177,27 @@ button {
 }
 
 form img {
-  width: 35px;
-  height: 35px;
+  width: 28px;
+  height: 28px;
 }
 
+.voice-btn,
 .send-btn {
-  filter: invert(98%) 
-  sepia(1%) saturate(498%) 
-  hue-rotate(188deg) 
-  brightness(109%) 
-  contrast(100%);
+  filter: invert(98%) sepia(1%) saturate(498%) hue-rotate(188deg)
+    brightness(109%) contrast(100%);
+}
+
+.voice-container {
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.voice {
+  padding-top: 5px;
+  z-index: 1;
+  cursor: pointer;
 }
 
 /* AI Loader Efect */
@@ -215,7 +221,6 @@ form img {
   bottom: 0;
   left: 0;
   border-radius: 50%;
- 
 }
 .container .circle:nth-of-type(1) {
   width: 200px;
