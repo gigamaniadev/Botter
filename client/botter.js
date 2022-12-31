@@ -134,16 +134,4 @@ form.addEventListener("keyup", (e) => {
     // start recognition
     recognition.start();
   }
-
-  // Disable SEND Button
-
-  function success() {
-    if (document.getElementById("output").value === "") {
-      document.getElementById("btnSend").disabled = true;
-    } else {
-      document.getElementById("btnSend").disabled = false;
-    }
-  }
-
-  success();
 });
