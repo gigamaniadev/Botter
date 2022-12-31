@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "typed.js": "^2.0.12"
   }
 }
