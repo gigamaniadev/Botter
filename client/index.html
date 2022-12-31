@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Botter - Your AI</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      type="text/javascript"
+      src="https://res.cloudinary.com/veseylab/raw/upload/v1636192990/magicmouse/magic_mouse-1.2.1.cdn.min.js"
+    ></script>
   </head>
   <body>
     <div class="top-banner">
@@ -86,7 +90,7 @@
     </div>
 
     <script type="module" src="botter.js"></script>
-    <script>
+    <script type="text/javascript">
       function SpeechRecog() {
         var output = document.getElementById("output");
         var action = document.getElementById("action");
@@ -119,6 +123,18 @@
         // start recognition
         recognition.start();
       }
+    </script>
+
+    <script type="text/javascript">
+      options = {
+        cursorOuter: "circle-basic",
+        hoverEffect: "circle-move",
+        hoverItemMove: false,
+        defaultCursor: false,
+        outerWidth: 30,
+        outerHeight: 30,
+      };
+      magicMouse(options);
     </script>
   </body>
 </html>
