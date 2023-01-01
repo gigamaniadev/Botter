@@ -1,4 +1,4 @@
-# Botter
+# Botter AI
 
 Build next-gen apps with OpenAI’s powerful models
 
